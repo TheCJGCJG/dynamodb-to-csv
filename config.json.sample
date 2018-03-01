@@ -1,0 +1,19 @@
+{
+  "aws": {
+    "accessKeyId": "KEY",
+    "region": "eu-west-2",
+    "secretAccessKey": "KEY"
+  },
+  "tables": [
+    {
+      "name": "production_customer_table_1",
+      "output_filename": "out/production_customer_table_1.csv",
+      "format": "CSV"
+    },
+    {
+      "name": "production_customer_table_2",
+      "output_filename": "out/production_customer_table_1.csv",
+      "format": "CSV"
+    }
+  ]
+}

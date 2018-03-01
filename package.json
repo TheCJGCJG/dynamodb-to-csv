@@ -1,0 +1,45 @@
+{
+  "name": "dynamodb-to-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCJGCJG/dynamodb-to-csv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheCJGCJG/dynamodb-to-csv/issues"
+  },
+  "homepage": "https://github.com/TheCJGCJG/dynamodb-to-csv#readme",
+  "dependencies": {
+    "array-to-csv": "^1.0.1",
+    "async": "^2.6.0",
+    "aws-sdk": "^2.204.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "csv": "^2.0.0",
+    "csv-stringify": "^2.0.4",
+    "lodash": "^4.17.5"
+  },
+  "babel": {
+    "presets": [
+      "stage-0",
+      [
+        "env",
+        {
+          "targets": {
+            "node": true
+          },
+          "useBuiltIns": true
+        }
+      ]
+    ]
+  }
+}
